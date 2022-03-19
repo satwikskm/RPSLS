@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Odibee Sans', cursive;
+    
+}
+
+.top{
+    height: 50vh;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(101,40,187,0.9850533963585434) 100%);
+    z-index: -1;
+}
+
+.bottom{
+    height: 50vh;
+    background: linear-gradient(0deg,
+     rgba(40,158,187,0.9850533963585434) 100%, rgba(34,195,81,1) 0%);
+    z-index: -1;
+}
+.main{
+    background: linear-gradient(0deg, rgba(7,5,46,1) 0%, rgba(134,179,170,0.9850533963585434) 100%);
+    width: 50%;
+    height: 50vh;
+    z-index: 1;
+    transform: translate(350px,150px);
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px rgba(59, 56, 56, 0.8);
+    color: aliceblue;
+    
+    
+
+}
+.main h1{
+    transform: translate(80px,50px);
+}
+
+.top p{
+    transform: translate(550px,50px);
+    color: white;
+}
+.main button{
+    
+    padding: 20px 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: DodgerBlue;
+    border: solid black 5px;
+    transform: translate(80px,150px);
+    justify-content: space-between;
+    
+    
+}
+
+.main button:hover{
+    background: white;
+}
+
+.bottom h2{
+    transform: translate(500px,250px);
+    color: aliceblue;
+}
+
+.top h2{
+    color:aliceblue;
+    transform: translate(500px,10px);
+
+}

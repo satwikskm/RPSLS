@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Rock-Paper-Scissor-Lizard-Spock Game</title>
+</head>
+<body>
+        <div class="top">
+            <h1 id="ps">Player-Score :</h1>
+            <h2 id="player"></h2>
+            <div class="main">
+                <h1>Choose you choice against computer and lets see who wins</h1>
+                <button id="rock" style="margin-left: 0px;" onclick="checker('rock',0)"><i class="fa-solid fa-hand-back-fist fa-3x"></i></button>
+                <button id="paper"style="margin-left: 25px;" onclick="checker('paper',1)"><i class="fa-solid fa-hand fa-3x"></i></button>
+                <button id="scissor" style="margin-left: 25px;" onclick="checker('scissor',2)"><i class="fa-solid fa-hand-scissors fa-3x"></i></button>
+                <button id="spock" style="margin-left: 25px;" onclick="checker('spock',3)"><i class="fa-solid fa-hand-spock fa-3x"></i></button>
+                <button id="lizard" style="margin-left: 25px;" onclick="checker('lizard',4)"><i class="fa-solid fa-hand-lizard fa-3x"></i></button>
+                
+            </div>
+            <p id="msg">Message</p>
+        </div>
+        
+        <div class="bottom">
+            <h1 id="cs">Computer Score</h1>
+            <h2 id="comp"></h2>
+        </div>
+</body>
+<script src="./script/script.js"></script>
+</html>
